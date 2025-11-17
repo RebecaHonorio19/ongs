@@ -1,0 +1,100 @@
+index.html 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vida Ativa ONG</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <img src="img/logo.png" alt="Logo Vida Ativa ONG" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#voluntarios">Voluntários</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Inicial -->
+    <section id="inicio" class="hero">
+        <img src="img/hero.jpg" alt="Imagem principal" class="hero-img">
+        <div class="hero-text">
+            <h1>Vida Ativa ONG</h1>
+            <p>Transformando vidas através de projetos sociais, educação e solidariedade.</p>
+            <a href="#projetos" class="btn">Conheça nossos projetos</a>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="projects">
+        <h2>Nossos Projetos</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+                <img src="img/projeto1.jpg" alt="Projeto 1">
+                <h3>Projeto Esperança</h3>
+                <p>Apoio escolar e atividades recreativas para crianças em situação de vulnerabilidade.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="img/projeto2.jpg" alt="Projeto 2">
+                <h3>Vida em Movimento</h3>
+                <p>Incentivo ao esporte e lazer para jovens da comunidade.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="img/projeto3.jpg" alt="Projeto 3">
+                <h3>Alimentação Solidária</h3>
+                <p>Distribuição de alimentos e apoio nutricional para famílias carentes.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Voluntários -->
+    <section id="voluntarios" class="volunteers">
+        <h2>Seja um Voluntário</h2>
+        <div class="volunteers-content">
+            <img src="img/voluntarios.jpg" alt="Voluntários">
+            <p>
+                Junte-se a nós nessa missão de amor e solidariedade.  
+                Sua ajuda pode transformar vidas e inspirar outras pessoas.
+            </p>
+            <a href="#contato" class="btn">Quero ajudar</a>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contact">
+        <h2>Contato</h2>
+        <p>Email: contato@vidaativaong.org</p>
+        <p>Telefone: (11) 99999-0000</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2025 Vida Ativa ONG - Todos os direitos reservados.</p>
+    </footer>
+    <script>
+document.addEventListener("DOMContentLoaded", () => {
+    const logo = document.querySelector(".logo"); 
+    logo.addEventListener("click", () => {
+        alert("Obrigado por visitar a Vida Ativa ONG! 💚");
+    });
+});
+</script>
+
+
+</body>
+</html>
