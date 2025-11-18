@@ -1,0 +1,58 @@
+/* Design tokens: cores, tipografia, espaçamentos, breakpoints */
+:root{
+  /* Palette (>=8 colors) */
+  --color-primary: #4CAF50;
+  --color-primary-dark: #2E7D32;
+  --color-secondary: #FF9800;
+  --color-secondary-dark: #F57C00;
+  --color-accent: #2BB7FF;
+  --color-green: #2DD4BF;
+  --color-neutral-100: #FAFBFF;
+  --color-neutral-300: #E6EEF2;
+  --color-neutral-600: #5A6B73;
+  --color-black: #0B1A1F;
+  --white: #FFFFFF;
+
+  /* Typography sizes (>=5) */
+  --fs-xxl: 2.5rem; /* ~40px */
+  --fs-xl: 1.75rem; /* ~28px */
+  --fs-lg: 1.25rem; /* ~20px */
+  --fs-md: 1rem;    /* ~16px */
+  --fs-sm: 0.875rem;/* ~14px */
+
+  --fw-regular: 400;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* Spacing modular: 8,16,24,32,48,64 */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 48px;
+  --space-6: 64px;
+
+  /* Layout tokens */
+  --container-max: 1200px;
+  --radius: 12px;
+  --shadow-sm: 0 6px 18px rgba(11,26,30,0.06);
+  --shadow-md: 0 12px 32px rgba(11,26,30,0.10);
+  --transition-fast: 180ms ease;
+}
+
+/* Breakpoints (5) */
+:root{
+  --bp-xl: 1200px;
+  --bp-lg: 992px;
+  --bp-md: 768px;
+  --bp-sm: 576px;
+  --bp-xs: 400px;
+}
+
+/* Theme aliases */
+:root{
+  --bg: var(--color-neutral-100);
+  --text: var(--color-black);
+  --muted: var(--color-neutral-600);
+  --surface: var(--white);
+}
